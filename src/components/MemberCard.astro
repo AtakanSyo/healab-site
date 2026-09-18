@@ -1,0 +1,16 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props {
+  entry: CollectionEntry<'people'>;
+}
+const { data } = Astro.props.entry;
+---
+
+<article class="member">
+  <h3>{data.name}</h3>
+  {(data.role || data.affiliation) && <p>{data.role}{data.role && data.affiliation && <br />}{data.affiliation}</p>}
+  {data.bio && <p>{data.bio}</p>}
+  {data.links.map((link) => (
+    <a href={link.url}>{link.label} ↗</a>
+  ))}
+</article>

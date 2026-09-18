@@ -1,0 +1,73 @@
+---
+import '../styles/global.css';
+import { site, navigation } from '../data/site';
+interface Props {
+  title?: string;
+  description?: string;
+  bodyClass?: string;
+}
+const { title, description = site.description, bodyClass } = Astro.props;
+const path = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#080d10" />
+    <title>{title ? `${title} · HEALAB` : 'HEALAB · Exploring the high-energy universe'}</title>
+    <meta
+      property="og:title"
+      content={title ? `${title} · HEALAB` : 'HEALAB'}
+    />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class={bodyClass}>
+    <a class="skip" href="#main">
+      Skip to content
+    </a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand-group">
+          <a
+            class="brand-logo-link"
+            href="https://www.sabanciuniv.edu/en"
+            aria-label="Sabancı University"
+          >
+            <img class="brand-logo" src="/images/logo-2.png" alt="Sabancı University" />
+          </a>
+          <a class="brand" href="/" aria-label="HEALAB home">
+            HEALAB<span class="brand-sub">{site.institution}</span>
+          </a>
+        </div>
+        <nav aria-label="Main navigation">
+          {navigation.map(([href, label]) => (
+            <a
+              href={href}
+              aria-current={
+                (href === '/' ? path === '/' : path.startsWith(href))
+                  ? 'page'
+                  : undefined
+              }
+            >
+              {label}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer>
+      <div class="container footer-inner">
+        <span>HEALAB · Sabancı University</span>
+        <a href="/contact/">Contact</a>
+      </div>
+    </footer>
+  </body>
+</html>

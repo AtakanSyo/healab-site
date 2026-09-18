@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import MemberCard from '../components/MemberCard.astro';
+import { getCollection } from 'astro:content';
+const people = (await getCollection('people')).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+const groups = [
+  ['lead', 'Faculty'],
+  ['current', 'Current members'],
+  ['past', 'Past members'],
+  ['instrumentation', 'Instrumentation'],
+];
+---
+
+<Layout title="Team">
+  <div class="container">
+    <PageHeader title="Team" />
+    {groups.map(([id, title]) => (
+      <section class="listing-section" id={id}>
+        <h2>{title}</h2>
+        <div class="member-grid">
+          {people
+            .filter((p) => p.data.group === id)
+            .map((entry) => (
+              <MemberCard entry={entry} />
+            ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</Layout>

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "kalemci-2025-dust-scattering-4u1630",
+    "title": "Dust scattering halo of 4U 1630−47: high resolution X-ray and mm observations constrain source and molecular cloud distances",
+    "category": "refereed",
+    "authors": "E. Kalemci, M. Diaz Trigo, E. Oztaban, A. A. Abbasi, T. Stanke, J. A. Tomsick, T. J. Maccarone, A. Saraçyakupoğlu, E. von Nussbaum, J. C. A. Miller-Jones, and B. Bahçeci",
+    "year": 2025,
+    "venue": "Monthly Notices of the Royal Astronomical Society, 543(3), 3073–3088",
+    "links": [
+      {
+        "label": "Read paper",
+        "url": "https://academic.oup.com/mnras/article/543/3/3073/8276733"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1093/mnras/staf1688"
+      }
+    ],
+    "draft": false
+  },
+  {
+    "id": "kalemci-2018-dust-scattering-4u1630",
+    "title": "Dust Scattering Halo of 4U 1630−47 Observed with Chandra and Swift: New Constraints on the Source Distance",
+    "category": "refereed",
+    "authors": "Emrah Kalemci, Thomas J. Maccarone, and John A. Tomsick",
+    "year": 2018,
+    "venue": "The Astrophysical Journal, 859, 88",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/1804.02909"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.3847/1538-4357/aabcd3"
+      }
+    ],
+    "draft": false
+  },
+  {
+    "id": "oztaban-kalemci-2026-molecular-clouds",
+    "title": "Determination of 3D Structures of Molecular Clouds in High-Resolution mm Images",
+    "category": "proceedings",
+    "authors": "Efe Öztaban and Emrah Kalemci",
+    "year": 2026,
+    "venue": "Machine Learning for Astrophysics 2024 (ML4Astro), Astrophysics and Space Science Proceedings, vol. 62, pp. 1–6",
+    "links": [
+      {
+        "label": "Book",
+        "url": "https://link.springer.com/book/10.1007/978-3-032-02232-5"
+      },
+      {
+        "label": "PDF",
+        "url": "https://drive.google.com/file/d/10KrXUels6qOCiBSlxnx_0b8IVaEG6gBp/view?pli=1"
+      }
+    ],
+    "draft": false
+  },
+  {
+    "id": "altingun-2023-ixrd-simulation",
+    "title": "A simulation study for the expected performance of Sharjah-Sat-1 payload improved X-Ray Detector (iXRD) in the orbital background radiation",
+    "category": "refereed",
+    "authors": "Ali M. Altıngün, Emrah Kalemci, and Efe Öztaban",
+    "year": 2023,
+    "venue": "Experimental Astronomy, 56, 117–140",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2301.02880"
+      },
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2301.02880"
+      },
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1007/s10686-022-09885-2"
+      }
+    ],
+    "draft": false
+  },
+  {
+    "id": "saracyakupoglu-2026-dsh-cddpm",
+    "title": "Conditional Diffusion Modeling of Poisson Distributed X-Ray Dust Scattering Halo Images",
+    "category": "non-refereed",
+    "authors": "Atakan Saraçyakupoğlu, Emrah Kalemci, Kamer Kaya, and Ahmed Abdullah Abbasi",
+    "year": 2026,
+    "venue": "MNRAS, preprint (4 September 2026)",
+    "links": [
+      {
+        "label": "Code",
+        "url": "https://github.com/AtakanSyo/dsh-cddpm"
+      },
+      {
+        "label": "Zenodo",
+        "url": "https://doi.org/10.5281/zenodo.21823978"
+      }
+    ],
+    "draft": false
+  },
+  {
+    "id": "kalemci-2021-sharjah-sat-1",
+    "title": "Scientific Contribution of Sharjah-Sat-1 to X-ray Observations",
+    "category": "proceedings",
+    "authors": "Emrah Kalemci, Antonios Manousakis, Ilias Fernini, Hamid Al Naimiy, Ayhan Bozkurt, A. Rüstem Aslan, A. Mürteza Altıngün, Kaan Veziroğlu, Refik Yalçın, Kaya Gökalp, Milad Diba, Ali Yaşar, Efe Öztaban, Boğaç Karabulut, Onur Öztekin, Yousuf Farouk, Ibrahim Alsabt, Tarifa AlKaabi, Muhammad Mubasshir Shaikh, and Sahith Reddy Madara",
+    "year": 2021,
+    "venue": "72nd International Astronautical Congress (IAC), Dubai, 25–29 October 2021. Paper IAC-21-B4,2,2,63844",
+    "links": [
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/publication/355652534_Scientific_Contribution_of_Sharjah-Sat-1_to_X-ray_Observations"
+      }
+    ],
+    "draft": false
+  }
+]

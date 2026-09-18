@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import { site } from '../data/site';
+---
+
+<Layout title="Contact">
+  <div class="container section">
+    <PageHeader title="Contact" />
+    <div class="two-column">
+      <section class="contact-panel">
+        <h2>Emrah Kalemci</h2>
+        <p>Professor · Sabancı University</p>
+        <a class="button" href={site.facultyUrl}>
+          Faculty website ↗
+        </a>
+      </section>
+      <section class="contact-panel">
+        <h2>Sabancı University</h2>
+        <address>{site.address}</address>
+        <a href="https://www.sabanciuniv.edu/">University website ↗</a>
+      </section>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,159 @@
+[
+  {
+    "id": "emrah-kalemci",
+    "name": "Emrah Kalemci",
+    "group": "lead",
+    "role": "Professor",
+    "order": 0,
+    "links": [
+      {
+        "label": "Faculty website",
+        "url": "https://myweb.sabanciuniv.edu/ekalemci/"
+      }
+    ],
+    "affiliation": "Sabancı University"
+  },
+  {
+    "id": "current-1",
+    "name": "Ahmed Abdullah Abbasi",
+    "group": "current",
+    "order": 1,
+    "links": [],
+    "role": "Physics PhD student",
+    "affiliation": "Sabancı University"
+  },
+  {
+    "id": "current-2",
+    "name": "Efe Öztaban",
+    "group": "current",
+    "order": 2,
+    "links": [],
+    "role": "PhD student",
+    "affiliation": "Max Planck Institute for Extraterrestrial Physics"
+  },
+  {
+    "id": "current-3",
+    "name": "Atakan Saraçyakupoğlu",
+    "group": "current",
+    "order": 3,
+    "links": [],
+    "role": "Physics PhD student",
+    "affiliation": "Sabancı University"
+  },
+  {
+    "id": "current-4",
+    "name": "Berre Zeynep Dönmez",
+    "group": "current",
+    "order": 4,
+    "links": [],
+    "role": "Physics MSc student",
+    "affiliation": "Sabancı University"
+  },
+  {
+    "id": "current-5",
+    "name": "Sena Nur Özgür",
+    "group": "current",
+    "order": 5,
+    "links": [],
+    "role": "Physics MSc student",
+    "affiliation": "Sabancı University"
+  },
+  {
+    "id": "past-1",
+    "name": "Tolga Dincer",
+    "group": "past",
+    "order": 1,
+    "links": []
+  },
+  {
+    "id": "past-2",
+    "name": "Deniz Aksulu",
+    "group": "past",
+    "order": 2,
+    "links": []
+  },
+  {
+    "id": "past-3",
+    "name": "Armin Vahdat Motlagh",
+    "group": "past",
+    "order": 3,
+    "links": []
+  },
+  {
+    "id": "past-4",
+    "name": "Yoon Young Chun",
+    "group": "past",
+    "order": 4,
+    "links": []
+  },
+  {
+    "id": "past-5",
+    "name": "Ozan Toyran",
+    "group": "past",
+    "order": 5,
+    "links": []
+  },
+  {
+    "id": "past-6",
+    "name": "Şirin Çalışkan",
+    "group": "past",
+    "order": 6,
+    "links": []
+  },
+  {
+    "id": "past-7",
+    "name": "Işıl Erdeve",
+    "group": "past",
+    "order": 7,
+    "links": []
+  },
+  {
+    "id": "past-8",
+    "name": "Batuhan Bahçeci",
+    "group": "past",
+    "order": 8,
+    "links": []
+  },
+  {
+    "id": "instrumentation-1",
+    "name": "Ali Murteza Altıngun",
+    "group": "instrumentation",
+    "order": 1,
+    "links": []
+  },
+  {
+    "id": "instrumentation-2",
+    "name": "Kaan Veziroglu",
+    "group": "instrumentation",
+    "order": 2,
+    "links": []
+  },
+  {
+    "id": "instrumentation-3",
+    "name": "Milad Diba",
+    "group": "instrumentation",
+    "order": 3,
+    "links": []
+  },
+  {
+    "id": "instrumentation-4",
+    "name": "Refik Yalçın",
+    "group": "instrumentation",
+    "order": 4,
+    "links": []
+  },
+  {
+    "id": "instrumentation-5",
+    "name": "Kaya Gökalp",
+    "group": "instrumentation",
+    "order": 5,
+    "links": []
+  },
+  {
+    "id": "instrumentation-6",
+    "name": "Yiğit Dallılar",
+    "group": "instrumentation",
+    "order": 6,
+    "links": []
+  }
+]

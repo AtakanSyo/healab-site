@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { render } from 'astro:content';
+import { getVisibleResearch } from '../lib/research';
+const research = await Promise.all(
+  (await getVisibleResearch()).map(async (entry) => ({
+    entry,
+    Content: (await render(entry)).Content,
+  })),
+);
+---
+
+<Layout bodyClass="home-bg">
+  <div class="container home">
+    <header class="home-heading">
+      <h1>High-energy astrophysics lab at Sabanci University.</h1>
+      <p>
+        HEALAB is a research group led by Prof. Emrah Kalemci that studies black
+        holes and the high-energy universe through multiwavelength observations,
+        GRMHD simulations, and machine learning. HEALAB is based at the Faculty
+        of Engineering and Natural Sciences of Sabancı University.
+      </p>
+    </header>
+    <section aria-labelledby="research-title">
+      <h2 id="research-title">Research</h2>
+      <ul class="research-list">
+        {research.map(({ entry, Content }) => (
+          <li>
+            <h3>{entry.data.title}</h3>
+            <Content />
+          </li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</Layout>

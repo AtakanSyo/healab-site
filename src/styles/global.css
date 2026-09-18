@@ -193,6 +193,13 @@ body.home-bg {
 .member {
   padding: 12px 0;
 }
+.member-photo {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
 .member h3 {
   overflow-wrap: anywhere;
 }

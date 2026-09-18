@@ -12,6 +12,7 @@ const people = defineCollection({
     role: z.string().optional(),
     affiliation: z.string().optional(),
     bio: z.string().optional(),
+    photo: z.string().optional(),
     order: z.number(),
     links,
   }),

@@ -4,10 +4,25 @@ interface Props {
   entry: CollectionEntry<'people'>;
 }
 const { data } = Astro.props.entry;
+const initials = data.name
+  .split(' ')
+  .filter(Boolean)
+  .map((part) => part[0])
+  .slice(0, 2)
+  .join('')
+  .toUpperCase();
 ---
 
 <article class="member">
-  {data.photo && <img class="member-photo" src={data.photo} alt={data.name} />}
+  {data.photo ? (
+    <img class="member-photo" src={data.photo} alt={data.name} />
+  ) : (
+    data.group === 'current' && (
+      <div class="member-photo member-photo-placeholder" aria-hidden="true">
+        {initials}
+      </div>
+    )
+  )}
   <h3>{data.name}</h3>
   {(data.role || data.affiliation) && <p>{data.role}{data.role && data.affiliation && <br />}{data.affiliation}</p>}
   {data.bio && <p>{data.bio}</p>}

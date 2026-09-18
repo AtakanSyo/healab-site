@@ -200,6 +200,15 @@ body.home-bg {
   border-radius: 50%;
   margin-bottom: 12px;
 }
+.member-photo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--line);
+  color: var(--muted);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
 .member h3 {
   overflow-wrap: anywhere;
 }
